@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+nav {
+    background-color: cadetblue;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 30px;
+    padding: 20px ;
+
+    ul {
+        align-items: center;
+        list-style-type: none;
+        display: flex;
+        flex-flow: row wrap;
+        gap: 20px;
+
+        li {
+            a {
+                color: rgb(249, 240, 229);
+                text-decoration: none;
+                font-weight: 600;
+                transition: all 200ms;
+                &:hover{
+                    opacity: 0.8;
+                }
+            }
+        }
+
+    }
+}
