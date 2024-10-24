@@ -14,7 +14,7 @@ nav {
     display: flex;
     align-items: center;
     min-height: 30px;
-    padding: 20px ;
+    padding: 20px;
 
     ul {
         align-items: center;
@@ -29,11 +29,34 @@ nav {
                 text-decoration: none;
                 font-weight: 600;
                 transition: all 200ms;
-                &:hover{
+
+                &:hover {
                     opacity: 0.8;
                 }
             }
         }
 
     }
+}
+
+#div {
+    min-width: 80%;
+    min-height: 500px;
+    background-color: brown;
+    background-image: url('https://th.bing.com/th/id/OIP.ng_GPaAiEtBb_Ezok8LE1AHaEo?rs=1&pid=ImgDetMain');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+#div {
+    min-width: 60%;
+    min-height: 400px;
+background-color: cadetblue;
+background-image: url('https://th.bing.com/th/id/OIP.Bv2OF0Jq4cK_HOv3WjUquAHaEK?rs=1&pid=ImgDetMain');
+background-repeat:repeat-x ;
+background-size: cover;
+background-position: bottom left;
+background-attachment: fixed;
 }
